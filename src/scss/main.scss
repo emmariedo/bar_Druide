@@ -65,12 +65,86 @@ video {
   letter-spacing: 0;
 }
 
+.shop {
+  font-family: Helvetica;
+  font-size: 15px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.burger-menu {
+  max-width: 70%;
+  margin: auto;
+}
+
 .news {
   font-family: Helvetica;
   font-weight: 600;
-  font-size: 45px;
   color: #ffffff;
   letter-spacing: 0;
-  line-height: 52px;
+  line-height: 152px;
   color: #000000;
+}
+
+@media (min-width: 700px) {
+  .news {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .news {
+    font-size: 140px;
+  }
+}
+
+.gris {
+  background-color: #d8d8d8;
+}
+
+.craft-brewery {
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+@media (min-width: 335px) {
+  .craft-brewery {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .craft-brewery {
+    font-size: 71px;
+  }
+}
+
+.craft-bewery-text {
+  font-family: Helvetica-Light;
+  font-size: 15px;
+  color: black;
+  letter-spacing: 0;
+}
+
+@media (min-width: 335px) {
+  .craft-bewery-text {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .craft-bewery-text {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .verre {
+    display: none;
+  }
 }
