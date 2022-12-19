@@ -81,22 +81,16 @@ video {
 .news {
   font-family: Helvetica;
   font-weight: 600;
+  font-size: 140px;
   color: #ffffff;
   letter-spacing: 0;
   line-height: 152px;
   color: #000000;
 }
 
-@media (min-width: 335px) {
+@media (max-width: 992px) {
   .news {
-    font-size: 70px;
-    line-height: 70px;
-  }
-}
-
-@media (min-width: 992px) {
-  .news {
-    font-size: 140px;
+    font-size: 45px;
     line-height: 152px;
   }
 }
@@ -110,14 +104,8 @@ video {
 .presentation {
   font-family: Helvetica;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 15px;
   letter-spacing: 0;
-}
-
-@media (min-width: 335px) {
-  .presentation {
-    font-size: 15px;
-  }
 }
 
 @media (min-width: 992px) {
@@ -129,16 +117,9 @@ video {
 .locations {
   font-family: Helvetica;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 15px;
   letter-spacing: 0;
 }
-
-@media (min-width: 335px) {
-  .locations {
-    font-size: 15px;
-  }
-}
-
 @media (min-width: 992px) {
   .locations {
     font-size: 24px;
@@ -148,14 +129,8 @@ video {
 .news-products {
   font-family: Helvetica;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 15px;
   letter-spacing: 0;
-}
-
-@media (min-width: 335px) {
-  .news-products {
-    font-size: 15px;
-  }
 }
 
 @media (min-width: 992px) {
@@ -177,12 +152,6 @@ video {
   line-height: 29px;
 }
 
-@media (min-width: 335px) {
-  .craft-brewery {
-    font-size: 20px;
-  }
-}
-
 @media (min-width: 992px) {
   .craft-brewery {
     font-size: 71px;
@@ -196,13 +165,7 @@ video {
   color: black;
   letter-spacing: 0;
   padding-top: 20px;
-}
-
-@media (min-width: 335px) {
-  .craft-bewery-text {
-    font-size: 15px;
-    line-height: 20px;
-  }
+  line-height: 20px;
 }
 
 @media (min-width: 992px) {
@@ -225,4 +188,60 @@ video {
 .informations-product {
   font-weight: 300;
   font-size: 14px;
+}
+
+.vol {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.find-us {
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 43px;
+  margin: 10px;
+}
+
+@media (min-width: 992px) {
+  .find-us {
+    font-size: 108px;
+    line-height: 97px;
+  }
+}
+
+.newsletter-text {
+  font-family: Helvetica;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+@media (min-width: 992px) {
+  .newsletter-text {
+    font-size: 21px;
+    letter-spacing: 0;
+  }
+}
+
+.newsletter-mail {
+  font-family: Helvetica;
+  font-size: 20px;
+  letter-spacing: 0;
+  color: #5a8088;
+}
+
+@media (min-width: 992px) {
+  .newsletter-mail {
+    font-size: 23px;
+  }
+}
+
+.help {
+  text-transform: uppercase;
+}
+
+.blue {
+  background-color: #b0f1ff !important;
 }
